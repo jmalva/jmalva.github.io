@@ -1,0 +1,23 @@
+---
+layout: default
+---
+
+<header>
+  <h1>{{ page.title }}</h1>
+</header>
+
+{{ content }}
+
+{% if site.theme_config.show_tech_stack_list == true %}
+  <h2>{{ site.theme_config.wip.title_tech_stack_list }}</h2>
+  {% include vertical_list.html collection=site.data.wip.misc_entries %}
+{% endif %}
+
+<p>This whole website is a WIP.</p>
+{% include post_list.html %}
+{% if site.theme_config.show_footer == true %}
+<footer>
+  <div class="dashed"></div>
+  {% include horizontal_list.html collection=site.data.home.footer_entries %}
+</footer>
+{% endif %}

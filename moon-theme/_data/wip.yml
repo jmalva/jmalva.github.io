@@ -1,0 +1,9 @@
+misc_entries:
+  - title: Jekyll & Sass through this website
+    url: false
+
+
+  - title: Nodejs with mySQL & Express
+    url: false
+    post_list: true
+
