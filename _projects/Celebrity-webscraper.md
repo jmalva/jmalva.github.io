@@ -1,9 +1,9 @@
 ---
-# layout: content
-title: Solar Powered Boat
-date: 2018-01-21
-position: Tech Lead
-desc: CCC's first entry in the annual Sacramento Municipal Utility District's Solar Boat Regatta...
+title: Celebrity Info Webscraper
+date: 2020-09-02
+end: 2020-12-20
+position: software developer
+desc: A webscraper tool created to find missing variables in datasets. Specifically made for study to analyze American actors and gender diversity.
 ---
 
 Lorem ipsum[^1] dolor sit amet, consectetur adipiscing elit. Pellentesque vel lacinia neque. Praesent nulla quam, ullamcorper in sollicitudin ac, molestie sed justo. Cras aliquam, sapien id consectetur accumsan, augue magna faucibus ex, ut ultricies turpis tortor vel ante. In at rutrum tellus.
