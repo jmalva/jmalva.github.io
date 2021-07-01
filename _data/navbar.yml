@@ -3,7 +3,7 @@ navbar_entries:
     url: /
 
   - title: about
-    url: /about/
+    url: /about
 
   - title: projects
     url: /projects

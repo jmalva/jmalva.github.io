@@ -54,6 +54,15 @@ html, body{
   /* top: 0; */
   width: 100vw;
 }
+/* Mobile View */
+/* @media screen and (max-width:500px) {
+  #title {
+    color: white;
+    top: 70rem;
+    height:90%;
+    top: 1em;
+  }
+} */
 
 /* Screens > 1000px wide */
 @media screen and (min-width: 1000px) {
