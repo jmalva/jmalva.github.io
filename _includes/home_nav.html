@@ -1,0 +1,10 @@
+<nav id="nav-container">
+  {% for item in include.collection %}
+    <li class="nav-link">
+      <a href="{{ item.url }}">
+        {{ item.title }}
+      </a>
+      &nbsp;&nbsp;
+    </li>
+  {% endfor %}
+  </nav>

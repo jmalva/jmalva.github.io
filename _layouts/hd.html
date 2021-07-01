@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: "en" }}" class="html" data-theme="{{ site.theme_config.appearance | default: "auto" }}">
+        {%- include head.html -%}
+  
+  <div class="home">
+    {% include background.html %}
+    <script> var autoPlayVideo = document.getElementById("video");
+      autoPlayVideo.oncanplaythrough = function () {
+        autoPlayVideo.muted = true;
+        autoPlayVideo.play();
+        autoPlayVideo.pause();
+        autoPlayVideo.play();
+      }</script>
+    <!-- Video by Rostislav Uzunov from Pexels -->
+    <!-- <video autoPlay loop muted playsInline id="home-video" ref={vid} class="blur" style={}>
+      <source src={video} type="video/mp4" />
+    </video> -->
+    <nav id="nav-container">
+      <Link to="/about" class="nav-link">about</Link>
+      <Link to="/projects" class="nav-link">projects</Link>
+      <Link to="/art" class="nav-link">works in progress</Link>
+      <Link to="/contact" class="nav-link">contact</Link>
+    </nav>
+    <h1 id="title" class="unselectable">jocelyn<br />alvarez</h1>
+  </div>
+      
+  <!-- <body>
+ 
+  {% if site.theme_config.show_navbar == true %}
+  {% include horizontal_list.html collection=site.data.home.navbar_entries %}
+  <div class="dashed"></div>
+  {% endif %}
+    <main class="page-content" aria-label="Content">
+      <div class="w">
+        <h1>{{ site.title }}</h1>
+        {% if site.theme_config.show_description == true %}
+        <p>{{ site.description }}</p>
+        {% endif %}
+        </header>
+        {% include background.html %}
+        {{ content }}
+
+        </div>
+    </main>
+
+   
+  </body> -->
+</html>
