@@ -24,5 +24,7 @@ misc_entries:
     entries:
       - title: React 
         url: false
-      - title: Node.js, Jupyter, Express.js
+      - title: Node.js
+      - title: Jupyter
+      - title: Express.js
         url: false

@@ -3,7 +3,7 @@ misc_entries:
     url: false
 
 
-  - title: Nodejs with mySQL & Express
+  - title: MySQL & Express
     url: false
     post_list: true
 
