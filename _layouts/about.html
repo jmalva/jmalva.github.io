@@ -1,0 +1,22 @@
+---
+layout: default
+---
+<header>
+  {% if site.theme_config.show_navbar == true %}
+  {% include horizontal_list.html collection=site.data.navbar.navbar_entries %}
+    <div class="dashed"></div>
+  {% endif %}
+  
+  <h1 class="post-title">{{ page.title }}</h1>
+  {% include date_and_social_share.html %}
+  <h4>{{ page.desc }}</h4>
+</header>
+
+<h2>{{ site.theme_config.about.title_misc_list }}</h2>
+{% include vertical_list.html collection=site.data.about.misc_entries %}
+
+<!-- <h2>{{ site.theme_config.home.title_misc_list }}</h2>
+{% include vertical_list.html collection=site.data.about.misc_entries %} -->
+
+
+{{ content }}

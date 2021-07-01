@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: project
 title: Celebrity Info Webscraper
 date: 2020-09-02
 end: 2020-12-20

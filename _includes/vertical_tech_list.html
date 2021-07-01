@@ -1,11 +1,11 @@
 <ul>
   {% for item in include.collection %}
     <li>
-    <!-- {% if item.url != false %}
+    {% if item.url != false %}
       <a href="{{ item.url }}">{{ item.title }}</a>
-    {% else %} -->
-    <!-- {% endif %} -->
-    {{ item.title }}
+    {% else %}
+      {{ item.title }}
+    {% endif %}
 
     {% if item.post_list == true %}
       {% include post_list.html %}
@@ -15,6 +15,9 @@
       {% include vertical_list.html collection=item.entries %}
     {% endif %}
     
+    {% if item %}
+      <p>{{ item }}</p>
+    {% endif %}
     </li>
   {% endfor %}
 </ul>

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: project
 title: MindParse
 position: Software Engineer
 date: 2020-09-01

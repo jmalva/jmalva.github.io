@@ -1,0 +1,28 @@
+
+
+misc_entries:
+  - title: "Languages:"
+    url: false
+    no_url: true
+    entries:
+      - title: Python
+        # url: false
+          
+      - title: JavaScript
+        url: false
+
+      - title: Java
+        url: false
+
+      - title: C/C++
+        url: false 
+
+  
+
+  - title: "Frameworks and other:"
+    url: false
+    entries:
+      - title: React 
+        url: false
+      - title: Node.js, Jupyter, Express.js
+        url: false

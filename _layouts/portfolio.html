@@ -4,9 +4,12 @@ title: Projects
 <!-- title: Projects and more -->
 ---
 
-<a href="{{ " /" | relative_url }}">{{ site.theme_config.back_home_text }}</a>
 
 <header>
+  {% if site.theme_config.show_navbar == true %}
+  {% include horizontal_list.html collection=site.data.navbar.navbar_entries %}
+    <div class="dashed"></div>
+  {% endif %}
   <h1>Projects</h1>
 </header>
 <body>
