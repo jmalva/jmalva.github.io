@@ -4,22 +4,18 @@
   
   <div class="home">
     {% include background.html %}
-    <script> var autoPlayVideo = document.getElementById("bg-video");
-      autoPlayVideo.oncanplaythrough = function () {
-        autoPlayVideo.muted = true;
-        autoPlayVideo.play();
-        autoPlayVideo.pause();
-        autoPlayVideo.play();
-      }</script>
     
-   
-    <nav id="nav-container">
-      <a to="/about" class="nav-link">about</a>
-      <a to="/projects" class="nav-link">projects</a>
-      <a to="/art" class="nav-link">works in progress</a>
-      <a to="/contact" class="nav-link">contact</a>
-    </nav>
+    {% include home_nav.html collection=site.data.navbar.navbar_entries %}
+  
     <h1 id="title">jocelyn<br />alvarez</h1>
-
+    
   </div>
-</html>
+  </html>
+  
+  <!-- <script> var autoPlayVideo = document.getElementById("bg-video");
+    autoPlayVideo.oncanplaythrough = function () {
+      autoPlayVideo.muted = true;
+      autoPlayVideo.play();
+      autoPlayVideo.pause();
+      autoPlayVideo.play();
+    }</script> -->
