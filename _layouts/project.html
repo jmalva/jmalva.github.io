@@ -13,9 +13,22 @@ layout: default
 <h4>{{ page.desc }}</h4>
 
 {% if page.tech.size != 0 %}
-  <h4>Technologies Used: {{ tech.length }}</h4>
+  <h4>technologies used: {{ tech.length }}</h4>
     {% include vertical_tech_list.html collection=page.tech %}
 {% endif %}
 <!-- Product screenshots here -->
+{% if page.about %}
+  <h4>About:</h4>
+  <p>
+    {{ page.about }}
+  </p>
+{% endif %}
+
+{% if page.role-desc %}
+  <h4>Role:</h4>
+  <p>{{ page.role-desc }}</p>
+{% endif %}
+
+
 
 {{ content }}
