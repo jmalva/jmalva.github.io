@@ -11,12 +11,22 @@ layout: default
 <h1 class="post-title">{{ page.title }} - {{ page.position }}</h1>
 {% include date_and_social_share.html %}
 <h4>{{ page.desc }}</h4>
+{% if page.proj-url %}
+  <h5>Try it out <a href="{{ page.proj-url }}">
+    here!
+  </a></h5>
+{% endif %}
 
 {% if page.tech.size != 0 %}
   <h4>technologies used: {{ tech.length }}</h4>
     {% include vertical_tech_list.html collection=page.tech %}
 {% endif %}
+
 <!-- Product screenshots here -->
+{% if page.show-img %}
+  <img src="../assets/images/{{ page.img }}">
+{% endif %}
+
 {% if page.about %}
   <h4>About:</h4>
   <p>

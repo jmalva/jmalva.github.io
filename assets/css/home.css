@@ -1,5 +1,6 @@
 html, body{
   height: 100%;
+  background-color: rgb(167, 181, 168);
 }
 #title
 {
@@ -16,7 +17,6 @@ html, body{
   padding: 10vw;
   position: relative;
   text-align: left;
-  /* top: 1em; */
 }
 .home
 {
@@ -51,7 +51,7 @@ html, body{
   margin: 0;
   object-fit: cover;
   position: fixed;
-  /* top: 0; */
+  top: 0;
   width: 100vw;
 }
 
@@ -65,7 +65,7 @@ html, body{
   }
 
   .nav-link {
-    font-size: 2rem;
+    font-size: 1.5rem;
     padding: 0 1rem;
   }
 
