@@ -16,5 +16,9 @@ layout: default
 {% include vertical_list.html collection=site.data.about.misc_entries %}
 
 
+{% if site.theme_config.show_tech_stack_list == true %}
+<h2>{{ site.theme_config.wip.title_tech_stack_list }}</h2>
+{% include vertical_list.html collection=site.data.wip.misc_entries %}
+{% endif %}
 
 {{ content }}

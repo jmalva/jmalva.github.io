@@ -1,10 +1,17 @@
-<ul class="horizontal-list">
-  {% for item in include.collection %}
-    <li>
-      <a href="{{ item.url }}">
-        {{ item.title }}
-      </a>
-      &nbsp;&nbsp;
-    </li>
-  {% endfor %}
+{% if collection.handle == "site.data.navbar.navbar" %}
+  Currently viewing {{ collection.current_type | downcase }}.
+
+  <ul class="home-nav">
+{% else %}
+  <ul class="horizontal-list">
+  
+{% endif %}
+{% for item in include.collection %}
+  <li>
+    <a href="{{ item.url }}">
+      {{ item.title }}
+    </a>
+    &nbsp;&nbsp;
+  </li>
+{% endfor %}
 </ul>

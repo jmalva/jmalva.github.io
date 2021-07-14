@@ -2,8 +2,7 @@ navbar_entries:
   - title: about
     url: about
 
-  # - title: blog
-  #   url: blog
+ 
   
   - title: projects
     url: projects
@@ -11,8 +10,8 @@ navbar_entries:
   # - title: website
   #   url: https://jmalva.github.io
 
-  - title: wip
-    url: wip
+  - title: contact
+    url: contact
 
 project_entries:
   - title: Project 1
@@ -52,7 +51,7 @@ old_project_entries:
     desc: The better people know you, the better they collaborate
 
 footer_entries:
-  - title: jmalva's homepage
+  - title: jmalva's home
     url: https://jmalva.github.io/
 
   # - title: twitter

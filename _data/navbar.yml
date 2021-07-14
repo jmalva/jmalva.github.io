@@ -8,5 +8,5 @@ navbar_entries:
   - title: projects
     url: /projects
 
-  - title: wip
-    url: /wip
+  - title: contact
+    url: /contact

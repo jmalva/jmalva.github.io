@@ -3,7 +3,7 @@ misc_entries:
     url: false
 
 
-  - title: MySQL & Express
-    url: false
-    post_list: true
+  # - title: MySQL & Express
+  #   url: false
+  #   post_list: true
 
