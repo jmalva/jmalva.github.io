@@ -50,6 +50,17 @@ ul.horizontal-list, .home-nav {
   display: flex;
   flex-wrap: nowrap;
   justify-content: center;
+}
+  #nav-container {
+    display: flex;
+    justify-content: center;
+  }
+  .nav-link
+  {
+    // color: white;
+    font-size: 5.5vw;
+    padding: 0 3vw;
+    text-decoration: none;
   }
   header ul.horizontal-list {
     display: flex;

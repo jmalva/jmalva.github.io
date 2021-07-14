@@ -34,7 +34,7 @@ li { margin: 0.4em 0; }
 .w {
   max-width: 720px;
   margin: 0 auto;
-  padding: 4em 2em;
+  padding: 4rem 2em;
 }
 
 table, th, td {
@@ -73,6 +73,8 @@ html {
     --code-text: #9D174D;
     --share-text: #999;
 }
+
+
 // -------------- THEME SWITCHER -------------- //
 @mixin dark-appearance {
   html, body  {

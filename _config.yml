@@ -59,8 +59,8 @@ theme_config:
     title_fact_list: Fun Facts
     
 
-  # wip:
-  #   title_tech_stack_list: Technologies I'm Currently Learning
+  wip:
+    title_tech_stack_list: Technologies I'm Currently Learning
 
 collections:
   projects:
