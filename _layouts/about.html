@@ -3,7 +3,7 @@ layout: default
 ---
 <header>
   {% if site.theme_config.show_navbar == true %}
-  {% include horizontal_list.html collection=site.data.navbar.navbar_entries %}
+  {% include horizontal_list.html collection=site.data.navbar.navbar_entries var="home" %}
     <div class="dashed"></div>
   {% endif %}
   

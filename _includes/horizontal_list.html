@@ -1,5 +1,4 @@
 {% if collection.handle == "site.data.navbar.navbar" %}
-  Currently viewing {{ collection.current_type | downcase }}.
 
   <ul class="home-nav">
 {% else %}
@@ -11,7 +10,6 @@
     <a href="{{ item.url }}">
       {{ item.title }}
     </a>
-    &nbsp;&nbsp;
   </li>
 {% endfor %}
 </ul>

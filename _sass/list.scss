@@ -51,6 +51,15 @@ ul.horizontal-list, .home-nav {
   flex-wrap: nowrap;
   justify-content: center;
   }
+  header ul.horizontal-list {
+    display: flex;
+   flex-wrap: wrap;
+    justify-content: center;
+    margin-left: 0;
+    padding-left: 0;
+    text-align: center;
+    
+  }
   footer ul.horizontal-list {
     display: flex;
     flex-wrap: wrap;
