@@ -10,7 +10,7 @@ li {
 }
 .home  {
   height: 100%;
-  max-width: 720px;
+  /* max-width: 720px; */
   margin: 0 auto;
   padding: 4rem 2em;
   box-sizing: border-box;
