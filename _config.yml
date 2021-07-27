@@ -25,7 +25,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  jmalva
 type: "website"
-image: "https://www.dropbox.com/s/ob6mjbiqpqy2i0m/homepage.png"
+image: "https://raw.githubusercontent.com/jmalva/jmalva.github.io/moonwalk/assets/bg/homepage.png"
 
 # Build settings
 remote_theme: abhinavs/moonwalk
