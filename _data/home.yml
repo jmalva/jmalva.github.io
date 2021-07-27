@@ -80,5 +80,16 @@ misc_entries:
     post_list: true
     url: false
 
+home_navbar_entries:
+
+  - title: about
+    url: /about
+
+  - title: projects
+    url: /projects
+
+  - title: contact
+    url: /contact
+
 
 
