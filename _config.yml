@@ -23,8 +23,9 @@ email:
 description: >- # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: 
 github_username:  jmalva
+type: "website"
+image: "https://www.dropbox.com/s/ob6mjbiqpqy2i0m/homepage.png"
 
 # Build settings
 remote_theme: abhinavs/moonwalk
