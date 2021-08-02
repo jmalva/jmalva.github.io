@@ -8,7 +8,7 @@ desc: A productivity app hosted on Chrome browser extension.
 proj-link: ''
 permalink: /mindparse/
 img: mindparselogo.png
-images: [welcomePage,signup, mindParseHome, MoodTracker, Pomadoro]
+images: [welcomePage,signup, mindParseDash, MoodTracker, Pomadoro]
 tech: [React, Node.js, JavaScript, Firebase]
 ---
 <!-- image carousel -->
