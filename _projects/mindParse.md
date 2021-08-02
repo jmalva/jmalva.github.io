@@ -8,10 +8,9 @@ desc: A productivity app hosted on Chrome browser extension.
 proj-link: ''
 permalink: /mindparse/
 img: mindparselogo.png
-images: [welcomePage.png,mindParseHome.png]
+images: [welcomePage,signup, mindParseHome, MoodTracker, Pomadoro]
 tech: [React, Node.js, JavaScript, Firebase]
 ---
-#### try out latest update: 
 <!-- image carousel -->
 #### about:
  For one of my capstone courses at UC San Diego, we were asked to come up with our own idea for any application of our choosing. Then implement it while following standard software engineering practices.
