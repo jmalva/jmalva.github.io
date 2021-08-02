@@ -18,13 +18,17 @@ layout: default
 {% endif %}
 
 {% if page.tech.size != 0 %}
-  <h4>technologies used: {{ tech.length }}</h4>
-    {% include vertical_tech_list.html collection=page.tech %}
+<h4>technologies used: {{ tech.length }}</h4>
+{% include vertical_tech_list.html collection=page.tech %}
 {% endif %}
 
 <!-- Product screenshots here -->
-{% if page.show-img %}
-  <img src="../assets/images/{{ page.img }}">
+{% if page.images and page.images.size != 0 %}
+  {% include slideshow.html collection=page.images %}
+  {% else %}
+    {% if page.show-img %}
+      <img src="../assets/images/{{ page.img }}">
+    {% endif %}
 {% endif %}
 
 {% if page.about %}

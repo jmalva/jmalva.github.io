@@ -60,9 +60,15 @@ blockquote {
 
 img {
   max-width: 100%;
+  max-height: 10rem;
+  min-height: 5rem;
   display: block;
   margin: 0 auto;
 }
+// .img-card {
+//   max-height: 1rem;
+// }
+
 $bgc: #DEC5A8;
 html {
     --bg: #F7F3E9;

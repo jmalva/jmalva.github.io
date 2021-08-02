@@ -29,3 +29,9 @@ misc_entries:
       - title: Express.js
       - title: Nodemon
         url: false
+
+learn_list: 
+  - title: Jekyll, Liquid & Sass through this website
+    url: false
+  - title: Jest
+    url: false

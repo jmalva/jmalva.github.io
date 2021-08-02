@@ -8,6 +8,7 @@ tech: [JavaScript, HTML/CSS]
 desc: A tool to assess healthy caffeine consumption.
 img: coffeetime.jpg
 show-img: true
+# images: []
 proj-url: https://itscoffeetime.netlify.app/
 ---
 

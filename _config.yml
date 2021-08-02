@@ -58,10 +58,11 @@ theme_config:
   about:
     title_misc_list: Skills
     title_fact_list: Fun Facts
+    title_learn_list: Technologies I'm Currently Learning
     
 
-  wip:
-    title_tech_stack_list: Technologies I'm Currently Learning
+  # wip:
+    
 
 collections:
   projects:
