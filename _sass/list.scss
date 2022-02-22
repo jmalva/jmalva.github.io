@@ -1,4 +1,4 @@
-ul.horizontal-list, .home-nav {
+ul.home-nav {
   display: flex;
   justify-content: flex-end;
   margin-top: 0em;
@@ -14,9 +14,26 @@ ul.horizontal-list, .home-nav {
     text-decoration: none;
     font-weight: normal
   }
-
+    
 }
+ul.horizontal-list{
+  display: flex;
+  justify-content: center;
+  margin-top: 0em;
+  margin-left: -40px;
+  flex-wrap: wrap;
 
+  li {
+    display:inline;
+    margin-right: 1em;
+  }
+
+  li a {
+    text-decoration: none;
+    font-weight: normal
+  }
+    
+}
 .card {
   padding: 1em;
   border: 1px var(--text) solid;

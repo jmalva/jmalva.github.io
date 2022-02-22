@@ -1,9 +1,7 @@
-{% if collection.handle == "site.data.navbar.navbar" %}
-
-  <ul class="home-nav">
+{% if collection.handle == "projects" %}
+<ul class="horizontal-list">  
 {% else %}
-  <ul class="horizontal-list">
-  
+<ul class="home-nav">
 {% endif %}
 {% for item in include.collection %}
   <li>

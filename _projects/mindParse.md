@@ -11,8 +11,8 @@ img: mindparselogo.png
 images: [welcomePage,signup, dashboard, MoodTracker, Pomodoro]
 tech: [React, Node.js, JavaScript, Firebase]
 ---
-<!-- image carousel -->
-#### about:
+
+#### About:
  For one of my capstone courses at UC San Diego, we were asked to come up with our own idea for any application of our choosing. Then implement it while following standard software engineering practices.
 
 Our group was composed of one product manager, two designers, one software architect, two software leads, multiple specialists and software engineers.
@@ -20,11 +20,10 @@ The ten of us decided to make a responsive productivity app that could be used a
 Additionally, we took it one step forward by publishing it to the Chrome store instead of allowing users to download the source code.
 
 <!-- #### role-desc:  -->
-#### role:
+#### Role:
 As software architect, I was responsible for choosing which technologies we would be using for our project. I was also responsible for piecing together the projects framework, taking the designs and use-cases and converting it into a code skeleton. 
 
 As none of us had exposure to building a browser extension, I took it upon myself to research this and built various demos. With the software lead we created a boilerplate with most of functions from my architecture designs.
 
 Since we were such a small team, I also pitched in as a software engineer. I implemented the dashboard and mood component. 
 
-More Coming Soon..

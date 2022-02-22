@@ -2,9 +2,13 @@
 <div class="slideshow-container">
   {% for img in include.collection %}
     <div class="mySlides fade">
-      <!-- <div class="numbertext">{{img.id}} / 3</div> -->
-      <img class="slideshowImg" src="../assets/images/{{img}}.png" >
-      <!-- <div class="text">Caption Text</div> -->
+      {% assign isUrl = img | slice: 0,4 %}
+      {%if isUrl == "http" %}
+        <img class="slideshowImg" src={{img}}>
+      {%else%}
+        <img class="slideshowImg" src="../assets/images/{{img}}.png" >
+        <!-- <div class="text">Caption Text</div> -->
+      {% endif %}
     </div>
   {% endfor %}
 

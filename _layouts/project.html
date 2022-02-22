@@ -9,7 +9,9 @@ layout: default
 </header>
 
 <h1 class="post-title">{{ page.title }} - {{ page.position }}</h1>
+
 {% include date_and_social_share.html %}
+
 <h4>{{ page.desc }}</h4>
 {% if page.proj-url %}
   <h5>Try it out <a href="{{ page.proj-url }}">
@@ -18,7 +20,7 @@ layout: default
 {% endif %}
 
 {% if page.tech.size != 0 %}
-<h4>technologies used: {{ tech.length }}</h4>
+<h4>Technologies Used: {{ tech.length }}</h4>
 {% include vertical_tech_list.html collection=page.tech %}
 {% endif %}
 
@@ -27,7 +29,7 @@ layout: default
   {% include slideshow.html collection=page.images %}
   {% else %}
     {% if page.show-img %}
-      <img src="../assets/images/{{ page.img }}">
+      <img src="../assets/images/{{ page.main-img }}">
     {% endif %}
 {% endif %}
 

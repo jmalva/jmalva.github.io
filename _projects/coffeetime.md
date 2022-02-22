@@ -12,8 +12,8 @@ show-img: true
 proj-url: https://itscoffeetime.netlify.app/
 ---
 
-#### about:
+#### About:
 This was one of my first websites created, before taking my web development classes. 
 
-#### future:
+#### Future:
 I would like to attach a database with more drink choices involved. Also better graphs, now that I have more experience with libraries and frameworks.
